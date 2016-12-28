@@ -13,7 +13,7 @@
     <appender name="hourlyRollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- hourly rollover -->
-            <FileNamePattern>/var/log/sps/core/sps-core.%d{yyyy-MM-dd_HH}.log</FileNamePattern>
+            <FileNamePattern>/Volumes/IntelSSD/App/PayMap/logs/sps-core.%d{yyyy-MM-dd_HH}.log</FileNamePattern>
 
             <!-- keep 48 hours' worth of history -->
             <maxHistory>48</maxHistory>
@@ -27,7 +27,7 @@
     <appender name="hourlyRollingFileErrorAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- hourly rollover -->
-            <FileNamePattern>/var/log/sps/error/sps-error.%d{yyyy-MM-dd_HH}.log</FileNamePattern>
+            <FileNamePattern>/Volumes/IntelSSD/App/PayMap/logs/sps-error.%d{yyyy-MM-dd_HH}.log</FileNamePattern>
 
             <!-- keep 48 hours' worth of history -->
             <maxHistory>48</maxHistory>
@@ -45,7 +45,7 @@
     <appender name="rootHourlyRollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- hourly rollover -->
-            <FileNamePattern>/var/log/sps/run/sps-run.%d{yyyy-MM-dd_HH}.log</FileNamePattern>
+            <FileNamePattern>/Volumes/IntelSSD/App/PayMap/logs/sps-run.%d{yyyy-MM-dd_HH}.log</FileNamePattern>
 
             <!-- keep 48 hours' worth of history -->
             <maxHistory>48</maxHistory>

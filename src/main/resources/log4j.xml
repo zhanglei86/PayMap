@@ -14,7 +14,7 @@
 
     <appender name="rolling-file-appender" class="org.apache.log4j.DailyRollingFileAppender">
         <!-- 如果是win系统，则在eclipse所在盘符下的以下路径中 -->
-        <param name="File" value="/home/bealog/systemlinker/emall.log"/>
+        <param name="File" value="/Volumes/IntelSSD/App/PayMap/logs/emall.log"/>
         <param name="DatePattern" value="'.'yyyyMMdd"/>
         <layout class="org.apache.log4j.PatternLayout">
             <param name="ConversionPattern"
